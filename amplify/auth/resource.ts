@@ -9,7 +9,7 @@ export const auth = defineAuth({
   loginWith: {
     email: {
       verificationEmailStyle: "CODE",
-      verificationEmailSubject: "Welcome to the AI-Powered Recipe Generator!",
+      verificationEmailSubject: "Robert welcomes You to the AI-powered Recipe Generator!",
       verificationEmailBody: (createCode) =>
         `Use this code to confirm your account: ${createCode()}`,
     },
