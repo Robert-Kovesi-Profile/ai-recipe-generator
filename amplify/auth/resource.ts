@@ -13,5 +13,10 @@ export const auth = defineAuth({
       verificationEmailBody: (createCode) =>
         `Use this code to confirm your account: ${createCode()}`,
     },
+<<<<<<< HEAD
   }, 
 });
+=======
+  },
+});
+>>>>>>> 735329cbe1b0f4f4b52252f961863161ba588ef9
